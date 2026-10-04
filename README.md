@@ -6,6 +6,7 @@ Propostas de home page para a SONILS (Sonangol Integrated Logistics Services), p
 - `/a` Relatório Anual
 - `/b` Planta da Base
 - `/c` Fachada
+- `/d` Cinema
 
 ## Stack
 

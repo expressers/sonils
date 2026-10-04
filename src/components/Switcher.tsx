@@ -2,9 +2,10 @@ const items = [
   { href: '/a', label: 'A · Relatório' },
   { href: '/b', label: 'B · Planta' },
   { href: '/c', label: 'C · Fachada' },
+  { href: '/d', label: 'D · Cinema' },
 ]
 
-export function Switcher({ current }: { current: 'a' | 'b' | 'c' }) {
+export function Switcher({ current }: { current: 'a' | 'b' | 'c' | 'd' }) {
   return (
     <nav className="switcher" aria-label="Propostas de design">
       <span>Proposta</span>

@@ -1,6 +1,6 @@
 # Design
 
-Three home-page directions under review. One will be chosen and become the system; until then they share tokens and content.
+Four home-page directions under review. One will be chosen and become the system; until then they share tokens and content.
 
 ## Shared foundation
 
@@ -18,3 +18,6 @@ Technical drawing sheet: white ground, 1.5px ink frames, dimension lines, a titl
 
 ## C. Fachada (`/c`)
 Steel-and-glass partition: 6px ink glazing bars, 14px mullions between bays, clear and seeded panes, yellow and red panes as the only colour notes. Panes start frosted and clear when they enter the viewport; nothing slides. Expanded width (115 to 125%).
+
+## D. Cinema (`/d`)
+The page as a film, still on a light ground. Opening: letterbox bars part, the word SONILS is a window onto the sea and the camera flies through the "I" into full-screen video. Then a word-by-word statement, a pinned lateral travelling over the official base panorama with markers, a full-screen satellite time-lapse, one figure per screen on yellow, sticky stacked service cards, a slow push-in on the official base plan, counter-moving field names, a red safety scene, a window-to-full-screen people reveal, and a closing scene over sunset footage.

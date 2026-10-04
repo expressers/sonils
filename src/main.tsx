@@ -7,6 +7,7 @@ const pages: Record<string, React.LazyExoticComponent<() => React.JSX.Element>> 
   a: lazy(() => import('./pages/A')),
   b: lazy(() => import('./pages/B')),
   c: lazy(() => import('./pages/C')),
+  d: lazy(() => import('./pages/D')),
 }
 
 const key = location.pathname.replace(/^\/+|\/+$/g, '').toLowerCase()

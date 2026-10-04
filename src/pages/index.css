@@ -2,7 +2,7 @@
 .ix-head { display: flex; gap: 20px; align-items: center; margin-bottom: clamp(32px, 5vw, 64px); }
 .ix-head h1 { font-size: clamp(24px, 3vw, 38px); line-height: 1.1; letter-spacing: -0.02em; font-stretch: 110%; }
 .ix-head p { color: var(--ink-2); margin-top: 6px; }
-.ix-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(16px, 2vw, 28px); }
+.ix-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: clamp(16px, 2vw, 28px); }
 .ix-card { display: block; text-decoration: none; height: 100%; }
 .ix-media { position: relative; aspect-ratio: 4 / 5; overflow: hidden; border-radius: 4px; background: var(--paper); }
 .ix-media video, .ix-media img { width: 100%; height: 100%; object-fit: cover; transition: transform 900ms var(--ease-out); }
@@ -19,7 +19,8 @@
   .ix-card:hover .ix-media video, .ix-card:hover .ix-media img { transform: scale(1.04); }
   .ix-card:hover .ix-go svg { transform: translateX(4px); }
 }
-@media (max-width: 900px) {
+@media (max-width: 1100px) { .ix-list { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) {
   .ix-list { grid-template-columns: 1fr; }
   .ix-media { aspect-ratio: 16 / 10; }
 }

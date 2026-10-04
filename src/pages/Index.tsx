@@ -24,6 +24,13 @@ const props = [
     text: 'Uma parede de aço e vidro: caixilhos negros, painéis claros que se iluminam e cor da marca reservada para o que importa.',
     media: 'video/sunset-vessel',
   },
+  {
+    href: '/d',
+    tag: 'D',
+    name: 'Cinema',
+    text: 'A home como um filme: o nome SONILS abre-se para o mar, travelling sobre a base real, time-lapse de satélite e cenas que se sucedem com o scroll.',
+    media: 'video/platform-top',
+  },
 ]
 
 export default function Index() {
@@ -33,7 +40,7 @@ export default function Index() {
         <Logo size={56} />
         <div>
           <h1>SONILS. Redesign do website institucional</h1>
-          <p>Três propostas de home page para revisão. Expressers, Outubro 2026.</p>
+          <p>Quatro propostas de home page para revisão. Expressers, Outubro 2026.</p>
         </div>
       </header>
       <ul className="ix-list">
