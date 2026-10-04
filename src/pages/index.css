@@ -1,0 +1,25 @@
+.ix { min-height: 100dvh; padding: clamp(24px, 5vw, 72px) var(--gutter) 96px; max-width: var(--max); margin: 0 auto; }
+.ix-head { display: flex; gap: 20px; align-items: center; margin-bottom: clamp(32px, 5vw, 64px); }
+.ix-head h1 { font-size: clamp(24px, 3vw, 38px); line-height: 1.1; letter-spacing: -0.02em; font-stretch: 110%; }
+.ix-head p { color: var(--ink-2); margin-top: 6px; }
+.ix-list { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(16px, 2vw, 28px); }
+.ix-card { display: block; text-decoration: none; height: 100%; }
+.ix-media { position: relative; aspect-ratio: 4 / 5; overflow: hidden; border-radius: 4px; background: var(--paper); }
+.ix-media video, .ix-media img { width: 100%; height: 100%; object-fit: cover; transition: transform 900ms var(--ease-out); }
+.ix-tag {
+  position: absolute; left: 14px; top: 14px; width: 44px; height: 44px; display: grid; place-items: center;
+  background: var(--yellow); color: var(--ink); font-weight: 700; font-size: 20px; border-radius: 999px;
+}
+.ix-body { padding-top: 18px; }
+.ix-body h2 { font-size: 24px; letter-spacing: -0.015em; font-stretch: 112%; }
+.ix-body p { color: var(--ink-2); margin: 8px 0 14px; max-width: 46ch; font-size: 16px; }
+.ix-go { display: inline-flex; gap: 8px; align-items: center; font-weight: 600; border-bottom: 2px solid var(--yellow); padding-bottom: 2px; }
+.ix-go svg { transition: transform 200ms var(--ease-out); }
+@media (hover: hover) and (pointer: fine) {
+  .ix-card:hover .ix-media video, .ix-card:hover .ix-media img { transform: scale(1.04); }
+  .ix-card:hover .ix-go svg { transform: translateX(4px); }
+}
+@media (max-width: 900px) {
+  .ix-list { grid-template-columns: 1fr; }
+  .ix-media { aspect-ratio: 16 / 10; }
+}
